@@ -96,14 +96,14 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/aleecri1.jpg) no-repeat;
+	background: url(../images/matrimonio.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% -50px;
 }
 .center {
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
@@ -136,7 +136,7 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #navigation{
-	background: #111;
+	background: rgba(49, 152, 211, 1);
 }
 .nav-wrap {
 	position: fixed;
@@ -250,18 +250,19 @@ header{
     font-size: 5em;
 }
 
-div#gmaps-canvas {
-
-    width:775px;	
-    height:300px;
-    margin: 0 auto;
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    border: 5px solid red;
 }
-
-div#gmaps-canvas2 {
-
-    width:775px;	
-    height:300px;
-    margin: 0 auto;
+.google-maps iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -404,9 +405,9 @@ div#gmaps-canvas2 {
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
-    background: #FF4500/*url(../images/parallax.jpg)*/;
+    background: white; /*#FF4500/*url(../images/parallax.jpg)*/
     padding: 80px 0px 80px 0px;
-    color: #fff;
+    color: black;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -453,7 +454,7 @@ div#gmaps-canvas2 {
     height: 100%;
 }
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 113, 59, 1);
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
@@ -564,7 +565,7 @@ div#gmaps-canvas2 {
 
 footer {
     width: 100%;
-    background: #000;
+    background: rgba(49, 152, 211, 1);
     color: #fff;
 }
 .copyright {
