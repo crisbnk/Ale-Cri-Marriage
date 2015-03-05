@@ -136,7 +136,9 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #navigation{
-	background: rgba(49, 152, 211, 1);
+	background: #5D91CA;
+	border-top: 5px solid #30353B;
+	border-bottom: 5px solid #30353B;
 }
 .nav-wrap {
 	position: fixed;
@@ -454,7 +456,7 @@ header{
     height: 100%;
 }
 #contact-area {
-    background: rgba(255, 113, 59, 1);
+    background: #DF5026;
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
@@ -565,7 +567,7 @@ header{
 
 footer {
     width: 100%;
-    background: rgba(49, 152, 211, 1);
+    background: #5D91CA;
     color: #fff;
 }
 .copyright {
