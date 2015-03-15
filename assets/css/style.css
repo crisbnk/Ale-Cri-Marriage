@@ -558,6 +558,10 @@ header{
 	background-image: url(../images/wordpress.png);
 }
 
+.google-form {
+	width: 640px;
+	height: 640px;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  08 - Footer 
@@ -643,8 +647,15 @@ footer {
 
 @media all and (max-width: 991px) {
 
-	header{
+/*	header{
 		background: url(../images/matrimonio_small.jpg) no-repeat !important;
+	}*/
+	header{
+		display: none;
+	}
+	.google-form {
+	width: 320px;
+	height: 600px;
 	}
 }
 
