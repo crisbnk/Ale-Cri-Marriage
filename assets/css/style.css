@@ -130,7 +130,6 @@ header{
 	transition: 0.4s ease all;
 }
 
-
 /* ///////////////////////////////////////////////////////////////////// 
 //  03 - Navigation 
 /////////////////////////////////////////////////////////////////////*/
@@ -254,10 +253,10 @@ header{
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 30%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
-    border: 5px solid red;
+    /*border: 5px solid red;*/
 }
 .google-maps iframe {
 	position: absolute;
@@ -265,6 +264,10 @@ header{
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+.item-space > p {
+	background: rgba(215, 215, 215, 0.6);
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -304,7 +307,7 @@ header{
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #111;
+	background: rgba(41, 41, 41, 0.5); /* era nero */
 	color: #e66f69;
 }
 
@@ -325,6 +328,13 @@ header{
 	color: #fff;
 }
 
+.port figcaption p {
+	text-align: center;
+	padding: 8px 15px;
+	display: inline-block;
+	color: #fff;
+}
+
 .cs-style-3 figure {
 	overflow: hidden;
 }
@@ -337,14 +347,14 @@ header{
 
 .no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
-	-webkit-transform: translateY(-50px);
-	-moz-transform: translateY(-50px);
-	-ms-transform: translateY(-50px);
-	transform: translateY(-50px);
+	-webkit-transform: translateY(0px); /* Era -50px*/
+	-moz-transform: translateY(0px); /* Era -50px*/
+	-ms-transform: translateY(0px); /* Era -50px*/
+	transform: translateY(0px); /* Era -50px*/
 }
 
 .cs-style-3 figcaption {
-	height: 100px;
+	height: 100%; /* Era 100px */
 	width: 100%;
 	top: auto;
 	bottom: 0;
