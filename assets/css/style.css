@@ -141,8 +141,6 @@ header{
 }
 .col-xs-1 {
 	margin-top: 13px;
-	position: absolute;
-	left: 0px; 
 }
 .nav-wrap {
 	position: fixed;
