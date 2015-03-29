@@ -36,10 +36,13 @@ html, body {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 16px;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Dosis', sans-serif;
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: 'Swanky and Moo Moo', cursive;
 }
 a {
 	color: #e66f69;
@@ -106,13 +109,15 @@ header{
     color: #5D91CA;
 }
 .bigheadline {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Swanky and Moo Moo', cursive;
+	/*font-family: 'Raleway', sans-serif;*/
 	font-weight: 100;
 	font-size: 5em/*10em*/;
 	margin: 0;
 }
 .subheadline {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Swanky and Moo Moo', cursive;
+	/*font-family: 'Titillium Web', sans-serif;*/
 	font-weight: 200;
 	font-size: 3em;
 	margin: 0;
@@ -159,7 +164,8 @@ header{
     font-size: 2.5em;
     padding: 0.2em 0;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Swanky and Moo Moo', cursive;
+    /*font-family: 'Raleway', sans-serif;*/
     font-weight: 100;
     display: table-cell;
 	vertical-align: middle;
@@ -245,7 +251,7 @@ header{
 }
 .service-wrap p {
     padding: 0px 40px;
-    font-size: 13px;
+    font-size: 17px;
 }
 .service-wrap h3 {
     margin: 10px 0px;
@@ -255,8 +261,9 @@ header{
 }
 
 .google-maps {
+	/*background-color: rgba(221, 221, 221, 0.5);*/
     position: relative;
-    padding-bottom: 30%; // This is the aspect ratio
+    padding-bottom: 35%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
     /*border: 5px solid red;*/
@@ -267,11 +274,20 @@ header{
     left: 0;
     width: 100% !important;
     height: 100% !important;
+    padding: 0px 15px 10px 15px;
 }
 
-.item-space > p {
+/*.purple {
+	background-color: rgba(221, 221, 221, 0.5);
+}*/
+
+/*.yellow {
+	background-color: yellow;
+}*/
+
+/*.item-space > p {
 	background: rgba(215, 215, 215, 0.6);
-}
+}*/
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  05 - Portfolio
@@ -285,7 +301,7 @@ header{
 .port {
 	list-style: none;
 	text-align: left;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 }
 
 .port .item {
@@ -572,9 +588,9 @@ header{
 }
 
 .google-form {
-	width: 1160px;
+	width: 698px;
 	height: 760px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -702,6 +718,11 @@ footer {
 	}
 	.item-space figure {
 	    max-width: 360px;
+	    margin: 0 auto;
+	}
+	.google-maps {
+	    max-width: 360px;
+	    height: 260px;
 	    margin: 0 auto;
 	}
 	.moreDetails {
