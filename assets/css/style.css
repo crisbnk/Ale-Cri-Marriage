@@ -471,7 +471,7 @@ header{
 
 
 #contact {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .mapWrap {
@@ -485,7 +485,7 @@ header{
     height: 100%;
 }
 #contact-area {
-    background: #DF5026;
+    background: #DFDDDD;
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
@@ -587,10 +587,14 @@ header{
 	background-image: url(../images/wordpress.png);
 }
 
-.google-form {
+#google-form {
 	width: 698px;
-	height: 760px;
+	height: 780px;
 	/*margin: 0 auto;*/
+}
+
+#contatti {
+	padding-top: 45px;
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -688,9 +692,12 @@ footer {
 	.col-xs-1 {
 		display: none;
 	} 
-	.google-form {
-	width: 320px;
-	height: 840px;
+	#google-form {
+		width: 320px;
+		height: 880px;
+	}
+	#contatti {
+		text-align: center;
 	}
 }
 
